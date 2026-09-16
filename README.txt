@@ -1,5 +1,2 @@
-Brevet Cue v0.4.1 emergency fix
-- FOCUS画面に常時表示の「ロールへ戻る」ボタン
-- 空キュー/不正な保存状態でも脱出可能
-- 起動時の表示エラーをロールへ自動復旧
-- 既存の端末内キューデータは維持
+Brevet Cue v0.4.2
+Fix: iPhone Safari/PWA FOCUS blank screen caused by window.focus name collision. Uses explicit DOM element references.
