@@ -1,6 +1,6 @@
-Brevet Cue v0.6.2
+Brevet Cue v0.7
 
-SCREEN OFF運用を追加。画面OFF/バックグラウンド時はアプリ内GPS取得タイマーを休止し、復帰時に即時再測位します。iOS/PWAではバックグラウンドGPS継続を保証できないため、Edge等を主ナビとして併用してください。
+追加: Ride with GPS CSVインポート / プレビュー / 置換 / PC等を保持した統合。
+既存: GPX、GPS省電力、SCREEN OFF復帰、タイマー安全リセット。
 
-
-v0.6.2.1: SCREEN OFF復帰処理のHTML配置不具合を修正。復帰時は新規GPS Fix取得まで「GPS再測位中…」を表示し、古い距離を表示しません。
+注意: RWGPSのキューはブルベ主催者の正式キューシートとは限りません。PC/PHOTO/CLOSE等は正式資料で確認してください。
