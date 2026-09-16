@@ -1,4 +1,4 @@
-Brevet Cue v0.2
+Brevet Cue v0.3
 
 - iPhone/iPad Safari向けPWA試作
 - 走行モード: 手動ロール、前後送り、PC表示
