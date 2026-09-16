@@ -1,7 +1,6 @@
-Brevet Cue v0.7.1
-- Ride with GPS CSV import
-- RWGPS English cue phrase normalization to Japanese
-- Ride display filter while retaining all imported cues
-- JSON export retains RWGPS source/raw data for future dedicated hardware
-- GPX/GPS, SCREEN OFF mode, safe timer reset retained
-Demo data is not the official BRM926 cue sheet.
+Brevet Cue v0.7.2
+- FOCUS用短縮表示（RWGPS原文は保持）
+- 次PC/GOALラベルと距離計算を明確化
+- 次キュー表示はフィルタ後の次キューを参照
+- RWGPS冗長文言の追加正規化
+- v0.7.1のCSV/GPX/GPS/SCREEN OFF/安全タイマー機能を継承
