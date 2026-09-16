@@ -1,4 +1,8 @@
-Brevet Cue v0.5.1
+Brevet Cue v0.6
 
-FOCUS実走UIの修正版。FOCUS中の上部UI非表示、PC表示中は次のPC/GOALまでの距離を表示、PC CLOSE超過表示を追加。
-GitHub Pagesでは index.html / manifest.json / sw.js / README.txt をリポジトリ直下へ配置してください。
+- GPS位置・速度・精度表示
+- GPXインポートとルート上の推定走行距離
+- 現在キューまでの推定残距離（手動キュー送りは維持）
+- タイマー誤リセット防止：FOCUSからRESETを撤去、データ画面で2秒長押し
+
+GPSは補助情報です。実走では道路状況と公式キューシートを優先してください。
