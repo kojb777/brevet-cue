@@ -1,4 +1,4 @@
-Brevet Cue v0.8
+Brevet Cue v0.8.1
 GPX Route Position: GPS位置をGPX線分へ投影し、現在キューまでのルート上残距離を表示。500m/200m/100mで強調。キュー送りは常に手動。
 
 Brevet Cue v0.7.4
@@ -10,3 +10,6 @@ Brevet Cue v0.7.4
 
 
 v0.7.4: FOCUS原文非表示、RWGPS短縮文改善、GOAL基準距離表示。
+
+
+v0.8.1: GPX総距離とRWGPS/イベントのキュー距離系を比率補正し、GPS残距離計算に適用。補正率をデータ画面に表示。
