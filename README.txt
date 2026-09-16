@@ -1,2 +1,8 @@
-Brevet Cue v0.4.2
-Fix: iPhone Safari/PWA FOCUS blank screen caused by window.focus name collision. Uses explicit DOM element references.
+Brevet Cue v0.5
+- Full-screen FOCUS cockpit
+- Compact fixed ROLL return button
+- START/RESET timer inside FOCUS
+- Cue number / elapsed time / next PC or goal
+- PC CLOSE time and remaining-time display
+- Dedicated dark/night presentation
+- Local storage + JSON/CSV-oriented data workflow retained
