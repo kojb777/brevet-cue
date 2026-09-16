@@ -1,9 +1,8 @@
-Brevet Cue v0.3
-
-- iPhone/iPad Safari向けPWA試作
-- 走行モード: 手動ロール、前後送り、PC表示
-- 編集モード: タッチ操作でイベント/キュー作成・編集
-- データ: JSON書き出し/読み込み、localStorage保存
-- オフライン: Service Worker（HTTPS配信時）
-
-注意: DEMOの地点・距離・時刻は架空です。BRM926公式データではありません。
+Brevet Cue v0.4
+- 実走用FOCUSを全画面化
+- FOCUS時は編集/データ/ロールUIを隠す
+- 現在時刻・経過時間・区間距離・次PC/ゴールを集約
+- PCではCLOSE時刻と残時間を表示
+- START/RESETをFOCUS内に配置
+- Service Workerのキャッシュ更新方式を改善
+注意: BRM926の表示内容はデモデータです。公式キューではありません。
