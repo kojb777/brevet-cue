@@ -1,8 +1,4 @@
-Brevet Cue v0.5
-- Full-screen FOCUS cockpit
-- Compact fixed ROLL return button
-- START/RESET timer inside FOCUS
-- Cue number / elapsed time / next PC or goal
-- PC CLOSE time and remaining-time display
-- Dedicated dark/night presentation
-- Local storage + JSON/CSV-oriented data workflow retained
+Brevet Cue v0.5.1
+
+FOCUS実走UIの修正版。FOCUS中の上部UI非表示、PC表示中は次のPC/GOALまでの距離を表示、PC CLOSE超過表示を追加。
+GitHub Pagesでは index.html / manifest.json / sw.js / README.txt をリポジトリ直下へ配置してください。
