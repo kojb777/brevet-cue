@@ -1,4 +1,4 @@
-Brevet Cue v0.8.5
+Brevet Cue v0.8.6
 
 公式キュー XLSX / CSV 直接インポート対応。
 AJ福岡のWebスプレッドシートから保存した .xlsx をCSV変換せず読み込めます。
