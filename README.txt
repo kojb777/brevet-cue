@@ -1,4 +1,4 @@
-Brevet Cue v0.8.9
+Brevet Cue v0.8.10
 
 FOCUS画面の「次キュー」を大きくし、走行中に一目で確認しやすい専用ブロック表示へ変更しました。
 距離と指示を約28〜30pxで強調し、その他のFOCUS情報は従来サイズを維持します。
@@ -12,3 +12,8 @@ RWGPS表示、XLSX/CSV/GPX、GPS補助、距離補正、手動キュー送り、
 
 更新: GitHub Pagesの既存4ファイル（index.html / manifest.json / sw.js / README.txt）を上書きしてください。
 XLSX読込はSheetJS 0.20.3を公式CDNから読み込みます。通信可能な状態で一度アプリを起動してください。
+v0.8.10
+- FOCUS cockpit uses fixed grid slots.
+- Official time/info slot remains reserved even when empty.
+- Next-cue card uses 32/68 distance/text split.
+- Bottom navigation safety spacing retained; short screens fall back to scrolling.
