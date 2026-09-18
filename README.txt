@@ -1,3 +1,9 @@
+Brevet Cue v0.8.10.5
+- ROLL上部: 走行 / 編集 / データ / START の4ボタン
+- ROLL下部: 前 / FOCUS / 次
+- FOCUS下部: 前 / ROLL / 次
+- ROLL専用ボタンを廃止
+
 Brevet Cue v0.8.10.3
 
 FOCUS画面の「次キュー」を大きくし、走行中に一目で確認しやすい専用ブロック表示へ変更しました。
