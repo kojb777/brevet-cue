@@ -1,4 +1,7 @@
-Brevet Cue v0.8.7
+Brevet Cue v0.8.8
+
+FOCUS画面の「次キュー」を大きくし、走行中に一目で確認しやすい専用ブロック表示へ変更しました。
+距離と指示を約28〜30pxで強調し、その他のFOCUS情報は従来サイズを維持します。
 
 Official Time = Display Only.
 公式XLSX / CSVの「時間」列は原文を保存・表示するだけで、OPEN/CLOSE/参考時間などの意味を自動判定しません。
