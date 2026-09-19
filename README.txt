@@ -1,4 +1,10 @@
-Brevet Cue v0.8.10.5
+Brevet Cue v0.8.10.7
+- ROLL下部の 前 / FOCUS / 次 を画面最下部に固定
+- 前/次操作時にページ全体のスクロール位置を保持
+- iOSのscroll anchoringによる画面ずれを抑制
+- FOCUS/GPS/公式キュー処理は変更なし
+
+Brevet Cue v0.8.10.6
 - ROLL上部: 走行 / 編集 / データ / START の4ボタン
 - ROLL下部: 前 / FOCUS / 次
 - FOCUS下部: 前 / ROLL / 次
