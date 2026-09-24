@@ -55,3 +55,6 @@ v0.8.14
 - 公式の道路列を短い補足として表示
 - 備考中の「参考時間 HH:MM」を抽出し「参考 HH:MM」として表示
 - 長文備考によるFOCUSレイアウト崩れを防止
+
+
+v0.8.15: Added Official cues only display filter while preserving existing filters.
