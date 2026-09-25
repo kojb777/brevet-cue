@@ -1,9 +1,9 @@
-Brevet Cue v0.8.16.1
+Brevet Cue v0.8.16.2
 - FOCUSの備考・時間情報を左詰め表示
 - 1行で見切れる項目は末尾「…」を確実に表示し、タップで全文表示
 - 公式XLSX/CSVから「形状」「信号」「標識」列を自動検出して保持・FOCUS表示
 
-Brevet Cue v0.8.16.1
+Brevet Cue v0.8.16.2
 - FOCUSの道路・路線名（R250 / K47 / 市道など）を拡大・太字化
 - 見切れたFOCUS項目は末尾に「…」を表示し、タップで全文表示
 - 公式キューのみ表示モードを維持
@@ -86,8 +86,17 @@ v0.8.16.0
 - 同一キュー・同一距離帯の重複発音を防止。ルートから150m超では接近音を抑制。
 
 
-v0.8.16.1
+v0.8.16.2
 - Fixed stale main-screen version label.
 - App version is now sourced from one APP_VERSION constant for the title/header.
 - Service Worker cache bumped to brevet-cue-v08161; old caches are deleted on activation.
 - Navigation uses network-first caching and reloads once when a new Service Worker takes control.
+
+
+v0.8.16.2
+- BRM1010公式XLSX実ファイルで列位置を確認（形状=B列、信号=C列、ポイント=D列、標識=E列、方角=F列、道路=G列、合計=I列、備考=K列）。
+- 公式キュープレビューに道路・形状・信号・標識の実値を表示し、取り込み前に確認可能。
+- ROLL選択行に形状・信号・標識を表示。
+- FOCUSは道路を中央、形状・信号・標識を中央、備考を左揃え＋省略表示。
+- ROLL一覧下に残っていた白い余白を除去。
+- GPS接近音（右/左/PC・PHOTO系の音分け、重複防止）を維持。
