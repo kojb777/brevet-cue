@@ -1,3 +1,6 @@
+Brevet Cue v0.8.18.3
+FOCUS layout rebuilt: elapsed only at top, no duplicate progress, next cue moved high, timer control on ROLL navigation.
+
 Brevet Cue v0.8.18.0
 
 - ROLL選択中キューの道路・形状・信号・標識を拡大・太字化し、走行中の視認性を改善。
