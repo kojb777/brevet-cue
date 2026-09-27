@@ -1,9 +1,9 @@
-Brevet Cue v0.8.18.13
+Brevet Cue v0.8.18.14
 FOCUS readability / protected GPS / live gross baseline fix
 
-Brevet Cue v0.8.18.13
+Brevet Cue v0.8.18.14
 
-v0.8.18.13: FOCUS再構成、ライブグロス表示、大容量GPX読込（軽量化・容量不足時再試行）を統合。BRM省電力モードを追加。GPS省電力＋画面OFF時GPS休止＋復帰時即再測位。Service Workerキャッシュもv081813へ更新。
+v0.8.18.14: FOCUS再構成、ライブグロス表示、大容量GPX読込（軽量化・容量不足時再試行）を統合。BRM省電力モードを追加。GPS省電力＋画面OFF時GPS休止＋復帰時即再測位。Service Workerキャッシュもv081814へ更新。
 
 Brevet Cue v0.8.18.3
 FOCUS layout rebuilt: elapsed only at top, no duplicate progress, next cue moved high, timer control on ROLL navigation.
