@@ -1,9 +1,9 @@
-Brevet Cue v0.8.18.8
+Brevet Cue v0.8.18.9
 FOCUS readability / protected GPS / live gross baseline fix
 
-Brevet Cue v0.8.18.8
+Brevet Cue v0.8.18.9
 
-v0.8.18.8: FOCUS再構成、ライブグロス表示、大容量GPX読込（軽量化・容量不足時再試行）を統合。Service Workerキャッシュもv08185へ更新。
+v0.8.18.9: FOCUS再構成、ライブグロス表示、大容量GPX読込（軽量化・容量不足時再試行）を統合。Service Workerキャッシュもv08189へ更新。
 
 Brevet Cue v0.8.18.3
 FOCUS layout rebuilt: elapsed only at top, no duplicate progress, next cue moved high, timer control on ROLL navigation.
