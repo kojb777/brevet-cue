@@ -1,9 +1,9 @@
-Brevet Cue v0.8.18.17
+Brevet Cue v0.8.18.18
 FOCUS readability / protected GPS / live gross baseline fix
 
-Brevet Cue v0.8.18.17
+Brevet Cue v0.8.18.18
 
-v0.8.18.17: FOCUS再構成、ライブグロス表示、大容量GPX読込（軽量化・容量不足時再試行）を統合。BRM省電力モードを追加。GPS省電力＋画面OFF時GPS休止＋復帰時即再測位。Service Workerキャッシュもv081815へ更新。
+v0.8.18.18: FOCUS再構成、ライブグロス表示、大容量GPX読込（軽量化・容量不足時再試行）を統合。BRM省電力モードを追加。GPS省電力＋画面OFF時GPS休止＋復帰時即再測位。Service Workerキャッシュもv081815へ更新。
 
 Brevet Cue v0.8.18.3
 FOCUS layout rebuilt: elapsed only at top, no duplicate progress, next cue moved high, timer control on ROLL navigation.
@@ -130,4 +130,4 @@ v0.8.18.0
 - 次重要地点まで必要なグロスは次PC/PHOTO/GOAL等の目標時刻までの残距離・残時間から計算。
 
 
-v0.8.18.17: ROLL current cue metadata split into separate official/target lines; progress duplicate replaced with next sleep-candidate distance. Sleep candidates: PC3, Misaki ferry, PC5 Taketa, PC6 Minamiaso.
+v0.8.18.18: ROLL current cue metadata split into separate official/target lines; progress duplicate replaced with next sleep-candidate distance. Sleep candidates: PC3, Misaki ferry, PC5 Taketa, PC6 Minamiaso.
