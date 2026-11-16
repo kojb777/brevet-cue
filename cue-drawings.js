@@ -173,7 +173,7 @@ const CueDrawings = (() => {
         }
         if(!cueRows.has(row)){skipped++;continue;}
         const group=byRow.get(row)||[];
-        group.push({obj,zr,offset:[axis(from,'colOff'),top(originalRow)+off]});byRow.set(row,group);
+        group.push({obj,zr,offset:[axis(from,'colOff'),top(originalRow)-top(row)+off]});byRow.set(row,group);
       }
     }
     const imgs = new Map();
@@ -188,8 +188,13 @@ const CueDrawings = (() => {
           if(!cw||!ch||!w||!h)return null;
           const scale=Math.sqrt(Math.abs(w/cw*h/ch)), children=kids(obj).filter(c=>['grpSp','sp','pic','cxnSp'].includes(c.localName));
           let content='';
-          for(const child of children){const v=await draw(child,physicalUnits*scale);if(!v)return null;content+=v;}
-          return content&&group('<g transform="scale('+f(w/cw)+' '+f(h/ch)+') translate('+f(-num(a,'x'))+' '+f(-num(a,'y'))+')">'+content+'</g>');
+          for(const child of children){
+            const ctl=one(one(child,child.localName==='grpSp'?'grpSpPr':'spPr'),'xfrm');
+            const [cx,cy]=bounds(ctl);
+            const v=await draw(child,physicalUnits*scale,[cx-num(a,'x'),cy-num(a,'y')]);
+            if(!v)return null;content+=v;
+          }
+          return content&&group('<g transform="scale('+f(w/cw)+' '+f(h/ch)+')">'+content+'</g>');
         }
         if(kind==='pic'){
           const blip=one(one(obj,'blipFill'),'blip'), path=zrFor.get(rid(blip,'embed'))?.path;
